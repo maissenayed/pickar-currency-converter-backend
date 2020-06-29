@@ -26,8 +26,10 @@ public class CurrencyConversionEventService {
                 .map(item ->
                         new CurrencyConversionHistoryItemDto(
                                 item.getCreatedAt(),
-                                item.getAmount() + " " + item.getFromCurrency(),
-                                item.getResult() + " " + item.getToCurrency()
+                                item.getFromCurrency(),
+                                item.getAmount(),
+                                item.getToCurrency(),
+                                item.getResult()
                         )
                 )
                 .collect(Collectors.toList());

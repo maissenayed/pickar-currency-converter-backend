@@ -11,5 +11,7 @@ import java.util.Date;
 public class CurrencyConversionHistoryItemDto {
     private LocalDate createdAt;
     private String from;
+    private Double fromAmount;
     private String to;
+    private Double toAmount;
 }
