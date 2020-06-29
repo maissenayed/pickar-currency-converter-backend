@@ -1,4 +1,4 @@
-package ai.pickar.currencyconverter.security;
+package ai.pickar.currencyconverter.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
