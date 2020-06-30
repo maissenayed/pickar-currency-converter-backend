@@ -55,7 +55,7 @@ localhost:8000
 ```
 
 ## Technical limits
-The converter is only able to convert USD currency because of the limitation of the free subscription :(
+The converter is only able to convert the USD currency because of the limitation of the free subscription in the Currency Layer API :(
 For this specific reason, the "Convert" button is disabled if the user wants to convert from another currency other than USD.
 The layout was tested on Firefox, Chrome and Opera only.
 
