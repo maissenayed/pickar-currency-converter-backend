@@ -39,7 +39,7 @@ By default, the repository is equipped with a Dockerfile enabling to build an ou
 To build the image from the Dockerfile, enter:
 
 ```sh
-./mvnw package & sudo docker build -t pickar-currency-converter .
+./mvnw package && sudo docker build -t pickar-currency-converter .
 ```
 This will create the image tagged as *pickar-currency-converter* and pull in the necessary dependencies.
 
