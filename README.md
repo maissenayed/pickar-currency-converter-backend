@@ -75,3 +75,8 @@ The project is structured as follow:
 - views: provides the different components of the application.
 
 *.spec.ts* files define the test code of the different services and components.
+
+docker-compose up -d
+ sudo docker-compose build
+ sudo netstat -nltp
+ docker ps -a
